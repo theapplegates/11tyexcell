@@ -1,0 +1,22 @@
+[
+  {
+    "platform": "github",
+    "url": "https://github.com/theapplegates/eleventy-excellent",
+    "icon": "github.svg"
+  },
+  {
+    "platform": "mastodon",
+    "url": "@mrapplegate@fosstodon.org",
+    "icon": "mastodon.svg"
+  },
+  {
+    "platform": "ko-fi",
+    "url": "https://ko-fi.com/",
+    "icon": "kofi.svg"
+  },
+  {
+    "platform": "rss",
+    "url": "/feed.xml",
+    "icon": "rss.svg"
+  }
+]

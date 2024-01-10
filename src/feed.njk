@@ -1,0 +1,16 @@
+---
+permalink: '/my-cool-feed.json'
+---
+{
+  "posts": [
+    {% for item in collections.posts %}
+      {
+        "title": "{{ item.data.title }}",
+        "url": "{{ item.url }}",
+        "description": "{{ item.description }}",
+        "date": "{{ item.date }}"
+      }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+
